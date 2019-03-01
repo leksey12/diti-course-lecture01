@@ -34,6 +34,18 @@ public class Solution {
 
     //TODO: реализовать подсчет суммы
     private static int simpleArraySum(int[] ar) {
-        return 0;
+        int sum;
+        sum = 0;
+        // цикл для обхода каждого элемента массива
+        for(int num : ar)
+        {// суммирование каждого элемента массива
+            sum = sum + num;
+        }
+       /* for (int num=0; num<ar.length; num++)
+        {
+            sum += ar[num];
+
+        }*/
+        return sum;
     }
 }

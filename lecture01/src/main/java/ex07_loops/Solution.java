@@ -18,11 +18,15 @@ public class Solution {
     //2 x 9 = 18
     //2 x 10 = 20
     public static void main(String[] args) {
+        System.out.println("Введите число n: ");
         int n = scanner.nextInt();
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
-
         //TODO: код здесь
-
+        for (int i = 1; i <= 10; i++)
+        {
+            int umnogenie = n*i;
+            System.out.println(String.format("%d x %d = %d",umnogenie,n,i));
+        }
         scanner.close();
     }
 }

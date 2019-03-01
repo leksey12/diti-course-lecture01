@@ -16,8 +16,15 @@ public class Solution {
         int t = in.nextInt();
         for(int a0 = 0; a0 < t; a0++){
             int n = in.nextInt();
-
-
+            int summa=0;
+            for (int i = 1; i < n; i++) {
+                if (summa% 3 == 0 && summa% 5 == 0) {
+                    summa = summa + i;
+                }
+            }
+            System.out.println( "summa = "+summa);
         }
+        in.close();
     }
 }
+
