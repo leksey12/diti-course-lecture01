@@ -27,12 +27,12 @@ public class Solution {
     }
 
     //Метод, который выводит на экран итоговую сумму, округленную в сторону ближайшего целого
+    //Метод Math.round() округляет дробь до целого числа.
     static void solve(double meal_cost, int tip_percent, int tax_percent) {
-        summa=Math.round(100+
-                tip_percent+
-                tax_percent)*
-                meal_cost/100;
-        System.out.println(summa);
-
+        double summa = Math.round(100 +
+                tip_percent +
+                tax_percent) *
+                meal_cost / 100;
+        System.out.println("summa = " + Math.round(summa));
     }
 }
