@@ -24,7 +24,7 @@ import java.util.Scanner;
                 System.out.println("Вам: "+age+" Ребёнок");
             else if (age >= 13 && age <18)
                 System.out.println("Вам: "+age+" Подросток");
-           else if (age >18)
+           else
                 System.out.println("Вам: "+age+" Взрослый");
         }
 

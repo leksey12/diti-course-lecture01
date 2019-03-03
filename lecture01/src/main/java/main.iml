@@ -13,6 +13,8 @@
       <sourceFolder url="file://$MODULE_DIR$/ex02_hello_world" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ex05_conditional_statements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ex07_loops" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bag" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/stack" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

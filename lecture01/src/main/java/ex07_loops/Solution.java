@@ -24,8 +24,8 @@ public class Solution {
         //TODO: код здесь
         for (int i = 1; i <= 10; i++)
         {
-            int umnogenie = n*i;
-            System.out.println(String.format("%d x %d = %d",umnogenie,n,i));
+            int b = n*i;
+            System.out.println(String.format("%d x %d = %d",b,n,i));
         }
         scanner.close();
     }
